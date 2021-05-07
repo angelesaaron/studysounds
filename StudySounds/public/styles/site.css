@@ -1,0 +1,531 @@
+html{
+    font-family: "Fraunces","Georgia",serif;
+    font-weight: 400;
+}
+
+header{
+    background: url("/public/images/study-sounds-header.png") no-repeat center center;;
+    background-size: cover;
+    height: 500px;
+    margin-top: -25px;
+    margin-left: -9px;
+    margin-right: -9px;
+    opacity: 98%;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    text-align: left;
+    padding: 7px;
+    font-size: 35px;
+    font-style: italic;
+    padding-top: 8px;
+    padding: 8px;
+    margin-left: 9px;
+
+}
+header h1 a{
+    text-decoration: none;
+    color: #f5e6d7;
+}
+header img{
+    padding-top: 8px;
+    margin-top: 10px;
+    height: 70px;
+}
+header nav{
+    display: inline-block;
+    margin: 6px;
+    padding-top: 10px;
+    padding: 10px;
+    margin-left: auto;
+
+}
+header nav li{
+    display: inline-flex;
+    padding: 5px;
+    font-family: "Fraunces","Georgia",serif;
+    font-style: italic;
+    padding: 5px;
+    font-size: 18px;
+}
+header nav li a{
+    color: #f5e6d7;
+}
+.header-sect h1{
+    text-align: center;
+    margin-top: 120px;
+    color:#f5e6d7; ;
+    font-family: "DM Sans","Arial",sans-serif;
+}
+.header-sect p{
+    text-align: center;
+    color: #69afc8;
+    font-style: italic;
+    margin-top: -10px;
+    font-family: "DM Sans","Arial",sans-serif;
+    font-size: 18px;
+}
+.header-sect cite a{
+    color: #69afc8;
+    font-style: italic;
+    margin-top: -10px;
+    font-family: "DM Sans","Arial",sans-serif;
+    font-size: 8px;
+}
+.hidden{
+    display: none;
+}
+
+/* Section 1 */
+.section1{
+    background:#f5e6d7;
+    height: 465px;
+    margin-top: -25px;
+    margin-left: -9px;
+    margin-right: -9px;
+    border-bottom: floralwhite;
+    border-style: outset;
+    border-width: 1px;;
+}
+
+.section3{
+    background:#f5e6d7;
+    margin-top: -25px;
+    margin-left: -9px;
+    margin-right: -9px;
+    border-bottom: floralwhite;
+    border-style: outset;
+    border-width: 1px;;
+}
+.section-top h2{
+    text-align: center;
+    color:#262626;
+    font-family:"Tahoma", "Verdana", "Segoe", sans-serif;
+    margin-top: 50px;
+}
+.section-top p{
+    text-align: center;
+    color: #262626;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+    font-size: 16px;
+}
+.internal-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+}
+.section-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.section-flex img{
+    width: 40px;
+    height: auto;
+}
+.section-flex p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.section2 {
+    background: #69afc8;
+    margin-top: -25px;
+    margin-left: -9px;
+    margin-right: -9px;
+    height: 500px;
+}
+footer{
+    background: #262626;
+    margin-top: -25px;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-bottom: -25px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+
+/* FORM ELEMENT FOR UPLOAD */
+.section1 h2{
+    padding: 10px;
+    margin-top: 30px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+    margin-left: 10px;
+}
+.section1 h3{
+    padding: 10px;
+    margin-top: 30px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+    text-align: center;
+}
+.form-elm-upload label{
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-left: 3px;
+    display: block;
+    float: left;
+    text-align: right;
+    width : 200px;
+    padding: 7.5px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.feedback{
+    /*display: flex;*/
+    font-size: 15px;
+    color: rgb(119, 10, 10);
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+    margin-left: 20px;
+}
+
+
+.form-elm-upload input{
+    height: 30px;
+    border-style: double;
+    border-width: thick;
+    display: block;
+    margin-top: 25px;
+}
+
+.submit_button input{
+    width: 120px;
+    height: 30px;
+    border-style: double;
+    border-width: thick;
+    display: block;
+    margin-top: 25px;
+    margin-left: 450px;
+    box-shadow: 2px 2px 10px rgba(200, 0, 0, 0.75);
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+
+}
+
+.submit_button{
+    padding: 10px;
+}
+
+/* Catalog Upload Page */
+.section3{
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.section3 h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.section3 ul{
+    list-style:none;
+}
+.section3 li{
+    padding: 5px;
+    display: flex;
+}
+em{
+    font-weight: bold;
+}
+.section3 li img{
+    min-width: 0;
+    min-height: 0;
+    vertical-align: bottom;
+    flex-grow: 1;
+    height: 150px;
+    width: 150px;
+}
+.section3 a{
+
+    color:#262626;
+}
+.section3 li table{
+    margin-top: 45px;;
+    margin-left: 20px;
+}
+.section3 li table img{
+    height: 38px;
+    width: 40px;
+}
+/* Catalog Home Page */
+.section3 li img{
+    min-width: 0;
+    min-height: 0;
+    vertical-align: bottom;
+    flex-grow: 1;
+    height: 150px;
+    width: 150px;
+}
+.catalog-sect{
+    color:#262626;
+}
+.home-catalog table img{
+    margin-top: 35px;
+    margin-left: 0px;
+
+}
+
+/* Home Page Tagging and Filtering Section */
+.section2{
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+    height: 350px;
+}
+.section2 h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.section2 p{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.option-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.option-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-color:#262626 ;
+}
+.filter-submit{
+    margin-left: 200px;
+    padding: 10px;
+}
+.option-section label{
+    padding: 15px;
+}
+
+/* INFORMATION PAGES */
+.section5{
+    background:#f5e6d7;
+    height: 550px;
+    margin-top: -25px;
+    margin-left: -9px;
+    margin-right: -9px;
+    border-bottom: floralwhite;
+    border-style: outset;
+    border-width: 1px;;
+}
+.section5 h2{
+    padding: 10px;
+    margin-top: 45px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+    margin-left: 10px;
+}
+.info-box img{
+    min-width: 0;
+    min-height: 0;
+    vertical-align: bottom;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;;
+    padding: 5px;
+}
+.info-box{
+    display: flex;
+    flex-direction: row;
+}
+.info-about{
+    display: flex;
+    flex-direction: column;
+
+}
+.info-about p{
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.info-about a{
+    color: #262626;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.info-about img{
+    height: 57px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.info-about li{
+    padding: 0px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+/* EDIT INFORMATION PAGE */
+.edit-box{
+    display: flex;
+    flex-direction: column;
+}
+.edit-about{
+    display: flex;
+    flex-direction: column;
+}
+.edit-about img{
+    height: 57px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.edit-about p{
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.edit-about li{
+    padding: 0px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.edit-about a{
+    color: #262626;
+    padding: 0px;
+
+}
+/* EDIT FORM*/
+.edit-form{
+    display: flex;
+    flex-direction: column;
+}
+.edit-form label{
+    margin-left: 30px;
+    padding: 7.5px;
+    margin-top: 35px;
+}
+.form-edit-section{
+    display: flex;
+    flex-direction: column;
+}
+.edit-form button{
+    margin-top: 40px;
+    margin-left: 220px;
+    width: 50px;
+}
+/* LOGIN FORM*/
+.login{
+    display: flex;
+    flex-direction: column;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.group_label_input{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.align-right {
+    display: flex;
+    justify-content:center;
+    margin-left: 200px;
+  }
+/* Tagging an Extising Entry */
+
+.option-section2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-color:#262626 ;
+}
+.tag-image{
+    margin-left: 200px;
+    padding: 10px;
+}
+.list-of-songs{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.list-of-tags{
+    padding-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    justify-content: center;
+}
+.option-section2 select{
+    margin-left: 5px;
+}
+.footer ul{
+    padding-top: 15px;
+    margin-right: 15px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+    margin-top: 20px;
+    color: #f5e6d7;
+    position: relative;
+    list-style: none;
+    font-size: 12px;
+}
+.footer li::before{
+    content: '▶';
+    position: absolute;
+    left: 0;
+    margin-left: 12.5px;
+
+}
+.footer li{
+    padding: 7.5px;
+}
+.footer p{
+    margin-left: 25px;
+    color: #f5e6d7;
+    padding: 10px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+
+}
+.upload-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-color:#262626 ;
+}
+.delete-submit-button{
+    margin-left: 200px;
+    padding: 10px;
+}
+.upload-section label{
+    padding: 15px;
+}
+.form-elm-upload-img input{
+    height: 30px;
+    display: block;
+    margin-top: 25px;
+
+}
+.form-elm-upload-img label{
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-left: 3px;
+    display: block;
+    float: left;
+    text-align: right;
+    width : 200px;
+    padding: 7.5px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+.feedback{
+    margin-top: 10px;
+}
+form p{
+    margin-left: 25px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
